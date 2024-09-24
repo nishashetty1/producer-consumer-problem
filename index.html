@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warehouse Inventory System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Warehouse Inventory System</h1>
+
+    <div class="container">
+        <div class="supplier-section">
+            <h2>Supplier Update</h2>
+            <input type="text" id="supplierProduct" placeholder="Product ID">
+            <input type="number" id="supplierQuantity" placeholder="Quantity">
+            <button id="updateInventory">Update Inventory</button>
+        </div>
+
+        <div class="order-section">
+            <h2>Order Processing</h2>
+            <input type="text" id="orderProduct" placeholder="Product ID">
+            <input type="number" id="orderQuantity" placeholder="Quantity">
+            <button id="processOrder">Process Order</button>
+        </div>
+
+        <div class="output">
+            <h2>Inventory Status</h2>
+            <pre id="inventoryStatus"></pre>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
